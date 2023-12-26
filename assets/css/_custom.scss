@@ -2,3 +2,25 @@
 // Custom style
 // 自定义样式
 // ==============================
+.page {
+  position: relative;
+  max-width: 1600px;
+  width: 85%;
+}
+@media only screen and (max-width: 1440px) {
+  .page {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .page {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .page {
+    width: 98%;
+  }
+}
